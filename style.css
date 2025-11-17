@@ -1,0 +1,65 @@
+body { font-family: Arial, sans-serif; 
+        	margin: 0; 
+        	padding: 0; 
+        	background: #f5f5f5; 
+        }
+
+        .Saurab { 
+        	background: #222; 
+        	color: white; 
+        	padding: 20px; 
+        	text-align: center; 
+        }
+
+        nav a { 
+        	color: white; 
+        	margin: 0 15px; 
+        	text-decoration: none;
+        	font-weight: bold; 
+        	}
+
+        nav a:hover {
+        	color: lightgreen;
+        }
+
+        section { padding: 40px; 
+        	max-width: 900px; 
+        	margin: auto; 
+        }
+
+        section:hover {
+           transform: translateY(-5px);
+           box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+           cursor: pointer;
+           
+           color: green;
+        }
+
+        h2 { border-left: 5px solid #222; 
+        	padding-left: 10px;
+        	 }
+
+        form { display: flex; 
+        	flex-direction: column; 
+        	gap: 10px; 
+        }
+
+        input, textarea { padding: 10px; 
+        	border-radius: 5px; 
+        	border: 1px solid #ccc; 
+        }
+
+        button { padding: 12px; 
+        	background: #222; 
+        	color: white; 
+        	border: none; 
+        	border-radius: 5px; 
+        	cursor: pointer; }
+
+        button:hover { background: #444; }
+        
+        footer { text-align: center; 
+        	padding: 20px; 
+        	background: #222; 
+        	color: white; 
+        	margin-top: 30px; }
